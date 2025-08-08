@@ -151,6 +151,15 @@
 .experience-card .other-digitart{
     display: none;
 }
+.experience-card:hover .speak-english{
+    display:none;
+}
+.experience-card:hover .other-english{
+    display:inline;
+}
+.experience-card .other-english{
+    display: none;
+}
 .experience-card:hover .digitart{
     display:none;
 }
