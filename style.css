@@ -128,17 +128,19 @@
 
 .imageborder {
     width: 60px;
-    height: auto;
+    height: 60px;
     border-radius: 10px;
     object-fit: cover;
 }
 
-
-.skills-card .non-hover{
+.skills-card .hovering{
+    display: none;
+}
+.skills-card:hover .hover{
     display: none;
 }
 .skills-card:hover .hovering{
-    display:inline;
+    display: inline;
 }
 
 .transition:hover{
