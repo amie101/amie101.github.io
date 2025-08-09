@@ -92,7 +92,7 @@
 }
 
 
-.experience{
+.skills{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;  
@@ -104,7 +104,7 @@
 }
 
 
-.experience h1{
+.skills h1{
     display: flex;
     font-size: 3.5em;
     font-family: 'Trebuchet MS';
@@ -112,15 +112,7 @@
 }
 
 
-.art {
-    width: 60px;
-    height: auto;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
-
-.experience-card {
+.skills-card {
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -133,39 +125,22 @@
     gap: 40px;
     padding: 20px;
 }
-.experience-card .other-art-info{
-    display: none;
-}
-.experience-card:hover .traditionart{
-    display:none;
-}
-.experience-card:hover .other-art-info{
-    display:inline;
-}
-.digit-art {
+
+.imageborder {
     width: 60px;
     height: auto;
     border-radius: 10px;
     object-fit: cover;
 }
-.experience-card .other-digitart{
+
+
+.skills-card .non-hover{
     display: none;
 }
-.experience-card:hover .speak-english{
-    display:none;
-}
-.experience-card:hover .other-english{
+.skills-card:hover .hovering{
     display:inline;
 }
-.experience-card .other-english{
-    display: none;
-}
-.experience-card:hover .digitart{
-    display:none;
-}
-.experience-card:hover .other-digitart{
-    display:inline;
-}
+
 .transition:hover{
   background-color: white;
   border: 3px solid #BFE1F0;
