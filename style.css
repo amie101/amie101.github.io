@@ -228,15 +228,16 @@
     position: relative;
     top: 200px;
     width: 400px;
-    height: 150px
+    height: 250px
 }
 
 .image2{
+  display: flex;
   width: 400px;
   height: 300px;
   position: absolute;
-  top: 50px;
-  right: 550px
+  right: 550px;
+  bottom: 200px;
 }
 
 
