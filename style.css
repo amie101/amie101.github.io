@@ -26,7 +26,7 @@
     justify-content: center;
     align-items:center;
     gap: 2em;
-    height: 90vh;
+    height: 100%;
     width: 100%;
     background: linear-gradient(135deg, #C2E7E8 0%, white 50%, #F1AACC 100%);
 
@@ -237,7 +237,7 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 690px;
+  right: 530px;
   bottom: 200px;
 }
 .image3{
@@ -245,7 +245,7 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 690px;
+  right: 530px;
   top:445px;
 }
 .image4{
@@ -253,7 +253,7 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 380px;
+  right: 120px;
   bottom: 200px;
 }
 .image5{
@@ -261,13 +261,6 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 380px;
+  right: 120px;
   top:445px;
 }
-
-
-
-
-
-
-
