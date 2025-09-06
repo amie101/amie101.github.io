@@ -94,7 +94,7 @@
 
 .skills{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2,auto);
     justify-content: center;  
     align-items: center;
     gap: 20px;
@@ -225,8 +225,9 @@
 }
 
 .image1{
-    position: relative;
-    top: 200px;
+    position: absolute;
+    top: 300px;
+    right: 300px;
     width: 400px;
     height: 250px
 }
@@ -236,8 +237,32 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 550px;
+  right: 530px;
   bottom: 200px;
+}
+.image3{
+  display: flex;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  right: 530px;
+  top:445px;
+}
+.image4{
+  display: flex;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  right: 120px;
+  bottom: 200px;
+}
+.image5{
+  display: flex;
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  right: 120px;
+  top:445px;
 }
 
 
