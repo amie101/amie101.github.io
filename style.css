@@ -227,7 +227,7 @@
 .image1{
     position: absolute;
     top: 300px;
-    right: 300px;
+    right: 460px;
     width: 400px;
     height: 250px
 }
@@ -237,7 +237,7 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 530px;
+  right: 690px;
   bottom: 200px;
 }
 .image3{
@@ -245,7 +245,7 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 530px;
+  right: 690px;
   top:445px;
 }
 .image4{
@@ -253,7 +253,7 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 120px;
+  right: 380px;
   bottom: 200px;
 }
 .image5{
@@ -261,7 +261,7 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 120px;
+  right: 380px;
   top:445px;
 }
 
