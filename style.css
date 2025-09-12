@@ -184,10 +184,10 @@
 }
 #skills2{
      display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,auto );
     gap: 20px;
     padding: 20px;
-    justify-content: flex-start;  
+    justify-content: center;  
     align-items: center;
     gap: 20px;
     height: 100%;
@@ -229,7 +229,12 @@
     top: 300px;
     right: 460px;
     width: 400px;
-    height: 250px
+    height: 300px;
+    opacity: 1;
+    transition: opacity 3s ease; /* smooth fade */
+}
+.image1:hover{
+    opacity: 0;
 }
 
 .image2{
@@ -237,7 +242,7 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 530px;
+  right: 656px;
   bottom: 200px;
 }
 .image3{
@@ -245,7 +250,7 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 530px;
+  right: 656px;
   top:445px;
 }
 .image4{
@@ -253,7 +258,7 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 120px;
+  right: 250px;
   bottom: 200px;
 }
 .image5{
@@ -261,6 +266,62 @@
   width: 400px;
   height: 300px;
   position: absolute;
-  right: 120px;
+  right: 250px;
   top:445px;
 }
+.background{
+  width: 100vw;
+  height: 110vh;
+  background: linear-gradient(135deg, #C2E7E8 0%, white 50%, #F1AACC 100%);
+}
+
+
+label{
+    font-family: 'Trebuchet MS';
+    color:#472f75
+}
+.title2{
+    font-family: 'Trebuchet MS';
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+
+}
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+input:focus, textarea:focus {
+  border-color: #ae8fe9;
+  outline: none;
+  box-shadow: 0 0 5px rgba(102,126,234,0.5);
+}
+.contacting button {
+  width: 100%;
+  padding: 12px;
+  background: #d1a5ee;
+  color:#472f75;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contacting{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+.contacting-img{
+    width: 400px;
+    height: 400px;
+}
+
